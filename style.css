@@ -1,0 +1,115 @@
+
+body{
+    text-decoration: none;
+}.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.flex-container div{
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    margin: 0.3px;
+    padding: 20px;
+    font-size: 30px;
+}
+.content img{
+    border: 0;
+    border-radius: 40px;
+}
+#b1{
+    float:left;
+    padding: 5px 40px;
+    border-radius: 15px;
+    background-color: #6093f1;
+    font-weight: bold;
+    color: white;
+}
+#b2{
+    padding: 5px 10px;
+    border: 1px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.profile img{
+    border: 0;
+    border-radius: 40px;  
+}
+div{
+    unicode-bidi: isolate;
+}
+section{
+    display: block;
+    unicode-bidi: isolate;
+}
+span a img{
+    border: 0;
+    border-radius: 20px;
+}
+.navigation{
+    position: relative;
+    top: 10px;
+    padding: 20px;
+    display: block;
+    unicode-bidi: isolate;
+    text-decoration: none;
+    list-style-type: none;
+}
+.flex-container nav a{
+    text-decoration: none;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    color: white;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+nav li a{
+    text-decoration: none;
+}
+#b3{
+    float: right;
+    padding: 5px 30px;
+    border-radius: 15px;
+    background-color: #6093f1;
+    font-weight: bold;
+    color: white;
+}
+.content-container1 p{
+    float: right;
+}
+*{
+    color: white;
+}
+.content a img{
+    float: left;
+}
+.content-container1 p{
+    float: right;
+}
+.box-containerr img{
+    border: 0;
+    border-radius: 20px;
+}
+.show a{
+    text-decoration: none;
+    color: #6093f1;
+}
+.trends a{
+    text-decoration: none;
+}
+.subscribe{
+    border: 1px;
+    border-radius: 20px solid white;
+}
